@@ -2,20 +2,27 @@
 
 ## Sample Repository
 
----
-
 ## Exit Status
 
-Every command, after execution, returns a **status code** as a number.
+Every command after execution it returns a status as a number. Number ranges from 0-255
 
-### Exit Status Range
-- **0** → Success
-- **1–255** → Failure / Partial Success / Partial Failure
+0 - Success  
+1-255 - NonSuccess / Partial Success / Partial Failure
 
-### Check Exit Status
-You can check the exit status of the **last executed command** using:
+We can see the status by using `$?` variable
 
-```bash
-echo $?
+We can send our own exit status in script using exit command as  
+`exit exit-number(0-255)`
+
+## Redirectors
+
+### Input Output
+
+we get output on terminal we provide input with keyboard
+
+If we would like to replace both with files then we need to take help of redirectors
+
+input (`<`) output (`>`)
+
 
 
