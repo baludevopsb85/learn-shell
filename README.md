@@ -18,11 +18,15 @@ We can send our own exit status in script using exit command as
 
 ### Input Output
 
-we get output on terminal we provide input with keyboard
+we get output on terminal 
+
+we provide input with keyboard
 
 If we would like to replace both with files then we need to take help of redirectors
 
-input (`<`) output (`>`)
+input (`<`) 
+
+output (`>`)
 
 
 
