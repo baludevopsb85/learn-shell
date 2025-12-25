@@ -1,4 +1,4 @@
-# if we need to iterate same commands again and again we use loops.
+# If we need to iterate same commands again and again we use loops.
 # while loop  -> This works on expressions we discussed in conditions
 # for  loop -> This works on inputs
 
